@@ -1,6 +1,2 @@
 # block09
-For this assignment I created a sample portfolio page with a home, about, and portfolio page. The home provides a brief description about my work, the about goes into deeper detail about the services I offer, and the portfolio is a page of hypothetical projects I would have worked on.
-
-The website features best practices coding syntax, a clean layout with easily identifiable sections, and css stylings including color, layout, and spacing.
-
-On the portfolio page, I also learned how to use javascript and css to create a button that scrolls you to the top of the page when you click on it, and shows your scrolling progress within the document.
+I took my website and consolidated all of the sections onto one page. With javascript and css I was able to create a static menu that changes color when you scroll down, and I took the static javascript button which allows you to click and scroll to the top of the page from the portfolio page on my last site and brought it over to the homepage on this website. I also incorporated a section with a contact form which brings you to a new page that automatically redirects you back after two seconds.
