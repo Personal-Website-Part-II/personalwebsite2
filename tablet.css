@@ -1,12 +1,8 @@
-body {
-    font-family: "Poppins", sans-serif;
-    background-color: rgb(40, 40, 98);
-    color: white;
-}
+@media screen and (min-width: 768px) and (max-width: 990px) {
 
-html {
-    scroll-behavior: smooth;
-}
+    body {
+        background-color: rgb(10, 10, 168);
+    }
 
 a {
     color: white;
@@ -33,16 +29,16 @@ img {
     background-color: rgb(7, 2, 106);
     width: 80%;
     max-width: 800px;
-    justify-content: center;
     margin: 10px auto;
-    padding: 10px;
+    padding: 20px;
 }
 
 #navigation {
-    text-align: center;
     margin: 10px;
     padding: 10px;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 #navigation a {
@@ -50,10 +46,17 @@ img {
     margin-bottom: 1px;
 }
 
-.column {
+.about {
     flex: 1;
     padding: 10px;
 }
+
+.home {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
 
 .flex {
     justify-content: center;
@@ -101,28 +104,5 @@ img {
     width: 100%;
     text-align: center;
 }
-
-#progress {
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-    height: 70px;
-    width: 70px;
-    display: none;
-    place-items: center;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-    cursor: pointer;
-}
-
-#progress-value {
-    height: calc(100% - 15px);
-    width: calc(100% - 15px);
-    background-color: #ffffff;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size: 35px;
-    color: #000000;
 
 }

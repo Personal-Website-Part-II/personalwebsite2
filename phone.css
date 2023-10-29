@@ -1,0 +1,107 @@
+@media screen and (max-width: 767px) {
+
+    body {
+        background-color: rgb(28, 28, 232);
+    }
+
+
+a {
+    color: white;
+    transition: 1s;
+}
+
+a:hover {
+    color: rgb(175, 175, 175);
+    transition: 1;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#pageheader {
+    text-align: center;
+    margin: 10px;
+}
+
+#pagemain {
+    background-color: rgb(7, 2, 106);
+    width: 80%;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+#navigation {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#navigation a {
+    margin: 5px;
+    margin-bottom: 1px;
+}
+
+.about {
+    flex: 1;
+    padding: 10px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.flex {
+    justify-content: center;
+}
+
+@media (min-width: 800px) {
+    .flex {
+        display: flex;
+    }
+}
+
+.project {
+    background-color: rgb(1, 1, 178);
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    transition: 2s;
+    opacity: 80%;
+}
+
+.project:hover {
+    background-color: rgb(38, 38, 255);
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    transition: 2s;
+    opacity: 100%;
+}
+
+.project img {
+    width: 80%;
+}
+
+.project img:hover {
+    width: 100%;
+}
+
+.project p {
+    text-align: left;
+}
+
+.about {
+    width: 100%;
+    text-align: center;
+}
+
+}

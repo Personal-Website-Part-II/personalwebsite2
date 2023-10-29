@@ -4,32 +4,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="main.css">
     <title>Hisashi Peterson - Home</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <header id="pageheader">
-        <h1>Hisashi Peterson Web Expert</h1>
+    <header>
+        <a href="#" class="logo">Hisashi Peterson</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </header>
 
-    <nav id="navigation">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-    </nav>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            let header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 
     <main id="pagemain">
-        <section class="flex">
-            <section class="column">
+        <section id="home">
+            <h1>Weclome</h1>
+            <div class="homebox">
                 <p>Andrew 'Hisashi' Peterson: A seasoned full-stack developer with a rich background in filmmaking. His
                     unique cinematic perspective enhances his digital creations, weaving compelling narratives into
                     functional and aesthetically pleasing web solutions. Melding the art of storytelling with the
                     precision of code, Andrew crafts immersive digital experiences for users.</p>
+                <img src="photos/portfoliopicture.JPG">
+            </div>
+        </section>
+
+        <section id="about">
+            <h1>About</h1>
+            <section class="about">
+                <p>Welcome to the official website of Andrew "Hisashi" Peterson. Hisashi brings a unique perspective to
+                    full-stack web development. Explore the range of
+                    services offered and discover how Hisashi can transform your digital presence.
+
+                <h3>Services Offered:</h3>
+
+                <ol>
+                    <li>
+                        <strong>Custom Web Development:</strong> Tailored solutions to meet your unique needs. From
+                        dynamic
+                        websites to
+                        intricate
+                        web applications, Hisashi crafts experiences that engage and delight users.
+                    </li>
+
+                    <li>
+                        <strong>Database Solutions:</strong> Harness the power of structured data. Hisashi designs and
+                        manages robust
+                        databases,
+                        ensuring your data remains accessible, secure, and scalable.
+                    </li>
+
+                    <li>
+                        <strong>Responsive Design:</strong> Seamless experiences across all devices. Whether on a
+                        desktop,
+                        tablet, or
+                        smartphone,
+                        your website will look and function impeccably.
+                    </li>
+
+                    <li>
+                        <strong>E-commerce Integration:</strong> Drive sales directly from your site. With secure
+                        payment
+                        gateways and
+                        intuitive
+                        shopping experiences, Hisashi ensures that your products reach a global audience.
+                    </li>
+
+                    <li>
+                        <strong>API Development & Integration:</strong> Connect with tools and platforms you love.
+                        Hisashi
+                        develops APIs that
+                        empower your applications to communicate fluidly with third-party services.
+                    </li>
+
+                    <li>
+                        <strong>Performance Optimization:</strong> Speed is crucial in today's digital age. With
+                        advanced
+                        optimization
+                        techniques, Hisashi ensures your site loads rapidly, retaining users and improving SEO rankings.
+                    </li>
+
+                    <li>
+                        <strong>Continuous Support & Maintenance:</strong> Keep your digital assets in prime condition.
+                        Hisashi offers
+                        post-launch support packages to ensure your platform remains updated, secure, and bug-free.
+                    </li>
+
+                    <li>
+                        <strong>Digital Consultation:</strong> Need advice on your next project? Leverage Hisashi's
+                        expertise to ensure your
+                        digital ventures are set on the path to success.
+                    </li>
+                </ol>
+                <p>
+                    Explore the portfolio to witness Hisashi's prowess in action and get in touch today to embark on
+                    your
+                    next digital venture.
+                </p>
+                <section class="about">
+                    <img
+                        src="https://www.greatlike.com/wp-content/uploads/2020/04/1584082601Web-development-designing-Anvar-Freelancer-1-1.png">
+                </section>
             </section>
-            <section class="column"><img src="photos/portfoliopicture.JPG">
+        </section>
+
+        <section id="portfolio">
+            <h1>Portfolio</h1>
+            <section class="project">
+                <h3>Pacman a Refreshed Classic</h3>
+                <img
+                    src="https://muralsyourway.vtexassets.com/arquivos/ids/274926-825-auto?width=825&height=auto&aspect=true">
+                <p>
+
+                    Dive into the world of nostalgia mixed with contemporary design in our revamped version of the
+                    iconic
+                    Pac-Man game. Journey through vibrant mazes, collecting dots and dodging crafty ghosts, all while
+                    experiencing sleek graphics and enhanced gameplay mechanics.
+
+                    Features:
+
+                    Modern Graphics: Relive the magic of Pac-Man in high-definition visuals that breathe new life into
+                    the
+                    classic arcade style.
+                    Innovative Mazes: While the essence remains true to the original, my game introduces new maze
+                    layouts,
+                    adding an extra layer of challenge and excitement.
+                    Adaptive Ghost AI: Watch out! Our ghosts have become smarter, adapting to your moves and strategies,
+                    making every chase an unpredictable thrill.
+                    Power-Up Bonanza: Beyond the classic power pellets, discover new power-ups that twist the gameplay
+                    and
+                    give Pac-Man unique abilities.
+                    Leaderboards & Achievements: Compete with players globally, track your scores, and earn achievements
+                    as
+                    you master the mazes.
+                    Rediscover the joy of Pac-Man with a modern touch. Whether you're a die-hard fan of the original or
+                    a
+                    newcomer to the arcade scene, this game promises hours of fun, challenges, and nostalgia.</p>
             </section>
+
+            <section class="project">
+                <h3>Massages Delivered</h3>
+                <img
+                    src="https://media.post.rvohealth.io/wp-content/uploads/2020/07/Young-female-receiving-massage-by-therapist-in-traditional-thai-position-732x549-thumbanil-732x549.jpg">
+                <p>
+                    Massages Delivered Website Project: As the proud web architect behind "Massages Delivered", I've
+                    crafted a digital platform that marries intuitive design with functionality. My mission was to
+                    create
+                    an immersive user experience, streamlining the connection between clients and top-tier massage
+                    therapists. Featuring real-time booking capabilities, detailed therapist profiles, and user reviews,
+                    I've brought the world of relaxation to your screens, ensuring every interaction is as calming as
+                    the
+                    service it represents. Dive into a website designed with tranquility in mind.</p>
+            </section>
+
+            <section class="project">
+                <h3>Pizza Haven Website</h3>
+                <img
+                    src="https://res.cloudinary.com/sagacity/image/upload/c_crop,h_3024,w_4032,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/IMG_0073_bytwsr.jpg">
+                <p> In crafting the website for this pizza haven, I've kneaded together rich visuals with an
+                    easy-to-navigate
+                    interface, ensuring every click feels as satisfying as that first bite of margherita. From
+                    mouth-watering galleries to real-time table reservations and a seamless online ordering system, I've
+                    cooked up a digital experience that's as warm and inviting as the aroma of freshly baked pizza.
+                    Delve
+                    into a site where design meets delicious – a testament to my passion for both pixels and pepperoni.
+                </p>
+            </section>
+
+        </section>
+
+        <section id="contact">
+            <h1>Get In Touch</h1>
+            <form action = "thankyou.html">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+    
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+    
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <textarea name="comment"></textarea><br><br>
+    
+                <input type="submit" value="Submit">
+            </form>
         </section>
 
     </main>
@@ -38,4 +207,5 @@
 
     </footer>
 </body>
+
 </html>
